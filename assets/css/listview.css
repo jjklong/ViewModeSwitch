@@ -37,10 +37,10 @@ body{
 }
 
 h3{
-  width: 10%;
+  width: 20%;
   display: inline-block;
   font-weight: 700;
-  font-size: 1.8em;
+  font-size: 1.2em;
   color: #47a3da;
 }
 
@@ -50,17 +50,18 @@ h4{
   font-weight: 400;
   margin: .4em;
   padding: .2em;
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #c0c0c0;
 }
 
 li{
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding-top: .2em;
+  padding-bottom: .2em;
   display: block;
 }
 
 p{
+  font-size: .9em;
   width: 35%;
   display: inline-block;
   margin: 0 1em;
@@ -69,11 +70,25 @@ p{
   padding: .2em;
 }
 
-i{
+.fa{
+  font-size: 2.5em;
+  color: lightgrey;
+  display: inline-block;
+  padding: .1em .2em .1em .2em;
+}
+
+.fa:hover{
+  font-size: 2.5em;
   color: #47a3da;
   display: inline-block;
   padding: .1em .2em .1em .2em;
 }
+
+#button2{
+  border: none;
+  background: white;
+}
+
 
 .toggle_icons{
   text-align: right;
@@ -82,7 +97,6 @@ i{
 img{
   width: 10%;
   display: inline-block;
-  padding: 1em;
 }
 
 /*add to cart hover color: 02639d*/
@@ -90,16 +104,19 @@ a{
   text-decoration: none;
 }
 
-button{
-  width: 25%;
+#button1{
   margin: 2em 0;
-  display: inline-block;;
+  display: inline-table;
   text-decoration: none;
   background: #47a3da;
   border: none;
   width: 14em;
   height: 3.2em;
   border-radius: 2px;
+}
+
+#button1:hover {
+  background: #02639d;
 }
 
 .plusSign{
@@ -110,6 +127,7 @@ button{
   font-size: 1.3em;
   background: white;
   border-radius: 50%;
+  font-weight: bold;
 }
 
 .add2cart{

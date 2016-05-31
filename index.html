@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
     <title>View Mode Switch</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" id="pagestyle">
   </head>
   <body>
     <div class="wrapper">
       <div class="switch_mode_header">
         <div class="toggle_icons">
-          <i class="fa fa-th fa-2x" aria-hidden="true"></i>
-          <i class="fa fa-th-list fa-2x" aria-hidden="true"></i>
+          <button type="button" id="button2" onclick="switch_style('assets/css/styles.css')"><i class="fa fa-th fa-2x" aria-hidden="true"></i></button>
+          <button type="button" id="button2" onclick="switch_style('assets/css/listview.css')"><i class="fa fa-th-list fa-2x" aria-hidden="true"></i></button>
         </div>
       </div>
       <div class="content_list">
@@ -25,7 +25,7 @@
             <p>
               Silver beet shallot wakame tomatillo salsify mung bean beetroot groundnut.
             </p>
-            <button type="button" name="add to cart">
+            <button type="button" name="add to cart" id="button1">
               <a href="#">
                 <span class="plusSign">+</span>
                 <span class="add2cart">Add to cart</span>
@@ -40,7 +40,7 @@
             <p>
               Wattle seed bunya nuts spring onion okra garlic bitterleaf zucchini.
             </p>
-            <button type="button" name="add to cart">
+            <button type="button" name="add to cart" id="button1">
               <a href="#">
                 <span class="plusSign">+</span>
                 <span class="add2cart">Add to cart</span>
@@ -55,7 +55,7 @@
             <p>
               Kohlrabi bok choy broccoli rabe welsh onion spring onion tatsoi ricebean kombu chard.
             </p>
-            <button type="button" name="add to cart">
+            <button type="button" name="add to cart" id="button1">
               <a href="#">
                 <span class="plusSign">+</span>
                 <span class="add2cart">Add to cart</span>
@@ -70,7 +70,7 @@
             <p>
               Melon sierra leone bologi carrot peanut salsify celery onion jícama summer purslane.
             </p>
-            <button type="button" name="add to cart">
+            <button type="button" name="add to cart" id="button1">
               <a href="#">
                 <span class="plusSign">+</span>
                 <span class="add2cart">Add to cart</span>
@@ -85,7 +85,7 @@
             <p>
               Celery carrot napa cabbage wakame zucchini celery chard beetroot jícama sierra leone.
             </p>
-            <button type="button" name="add to cart">
+            <button type="button" name="add to cart" id="button1">
               <a href="#">
                 <span class="plusSign">+</span>
                 <span class="add2cart">Add to cart</span>
@@ -100,7 +100,7 @@
             <p>
               Catsear cabbage tomato parsnip cucumber pea brussels sprout spring onion shallot swiss.
             </p>
-            <button type="button" name="add to cart">
+            <button type="button" name="add to cart" id="button1">
               <a href="#">
                 <span class="plusSign">+</span>
                 <span class="add2cart">Add to cart</span>
@@ -119,7 +119,7 @@
             <p>
               Mung bean taro chicory spinach komatsuna fennel.
             </p>
-            <button type="button" name="add to cart">
+            <button type="button" name="add to cart" id="button1">
               <a href="#">
                 <span class="plusSign">+</span>
                 <span class="add2cart">Add to cart</span>
@@ -134,7 +134,7 @@
             <p>
               Epazote soko chickpea radicchio rutabaga desert raisin wattle seed coriander water.
             </p>
-            <button type="button" name="add to cart">
+            <button type="button" name="add to cart" id="button1">
               <a href="#">
                 <span class="plusSign">+</span>
                 <span class="add2cart">Add to cart</span>
@@ -149,7 +149,7 @@
             <p>
               Tatsoi caulie broccoli rabe bush tomato fava bean beetroot epazote salad grape.
             </p>
-            <button type="button" name="add to cart">
+            <button type="button" name="add to cart" id="button1">
               <a href="#">
                 <span class="plusSign">+</span>
                 <span class="add2cart">Add to cart</span>
@@ -164,7 +164,7 @@
             <p>
               Endive okra chard desert raisin prairie turnip cucumber maize avocado.
             </p>
-            <button type="button" name="add to cart">
+            <button type="button" name="add to cart" id="button1">
               <a href="#">
                 <span class="plusSign">+</span>
                 <span class="add2cart">Add to cart</span>
@@ -179,7 +179,7 @@
             <p>
               Bush tomato peanut shallot turnip prairie turnip gram desert raisin.
             </p>
-            <button type="button" name="add to cart">
+            <button type="button" name="add to cart" id="button1">
               <a href="#">
                 <span class="plusSign">+</span>
                 <span class="add2cart">Add to cart</span>
@@ -194,7 +194,7 @@
             <p>
               Yarrow leek cabbage amaranth onion salsify caulie kale desert raisin prairie turnip garlic.
             </p>
-            <button type="button" name="add to cart">
+            <button type="button" name="add to cart" id="button1">
               <a href="#">
                 <span class="plusSign">+</span>
                 <span class="add2cart">Add to cart</span>
@@ -206,5 +206,8 @@
 
       </div>
     </div>
+    <script type="text/javascript" src="assets/js/view_mode_switch.js">
+
+    </script>
   </body>
 </html>

@@ -65,11 +65,25 @@ p{
   padding: .2em;
 }
 
-i{
+.fa{
+  font-size: 2.5em;
+  color: lightgrey;
+  display: inline-block;
+  padding: .1em .2em .1em .2em;
+}
+
+.fa:hover{
+  font-size: 2.5em;
   color: #47a3da;
   display: inline-block;
   padding: .1em .2em .1em .2em;
 }
+
+#button2{
+  border: none;
+  background: white;
+}
+
 
 .toggle_icons{
   text-align: right;
@@ -84,7 +98,7 @@ a{
   text-decoration: none;
 }
 
-button{
+#button1{
   margin: 2em 0;
   display: inline-table;
   text-decoration: none;
@@ -95,6 +109,10 @@ button{
   border-radius: 2px;
 }
 
+#button1:hover {
+  background: #02639d;
+}
+
 .plusSign{
   padding: 0 0.3em .05em .3em;
   margin: 0 .5em 0 -.5em;
@@ -103,6 +121,7 @@ button{
   font-size: 1.3em;
   background: white;
   border-radius: 50%;
+  font-weight: bold;
 }
 
 .add2cart{
